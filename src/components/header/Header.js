@@ -8,7 +8,7 @@ import { BsGithub } from 'react-icons/bs';
 
 function Header() {
   return (
-    <div className='header'>
+    <div className='header' id='header'>
       <div className="container header__container">
         <h5>Pleasure to meet you. Myself,</h5>
         <h1>Devesh Tulshyan</h1>
@@ -21,7 +21,7 @@ function Header() {
           <img src={Image} alt="Myself" />
         </div>
         <div>
-          <a href="" className="header__scroll">Scroll Down</a>
+          <a href="#contact" className="header__scroll">Scroll Down</a>
         </div>
         <div className="header__socials">
           <a href="https://twitter.com/TulshyanDevesh" target="_blank"><BsTwitter /></a>
