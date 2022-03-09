@@ -24,7 +24,6 @@ function About() {
           <p>I'm a Self-taught Full-Stack Developer who loves to build projects, work on different ideas, and create new apps
           every now and then. Besides coding, I have passion in music and I love to play Football. I'm very friendly, feel free 
           to text me anytime for any queries, I'll answer back as soon as possible. Till then, enjoy exploring my Portfolio!</p>
-          <a href="#contact" className='btn btn-primary'>Let's Have a Chat</a>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 .about {
     height: 100vh;
+    padding-top: 4rem;
 }
 
 .about__container {
@@ -62,9 +63,5 @@
     .about__info > p {
         font-size: 0.9rem;
         text-align: center;
-    }
-
-    .about__info > a {
-        display: none;
     }
 }
