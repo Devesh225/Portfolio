@@ -32,3 +32,23 @@ a.active {
 a.active:hover {
     color: var(--color-white);
 }
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+        left: 50%;
+        top: auto;
+        bottom: 2rem;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        left: 50%;
+        top: auto;
+        bottom: 2rem;
+        transform: translateX(-50%);
+    }
+}
