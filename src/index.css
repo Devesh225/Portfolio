@@ -23,7 +23,7 @@
     --container-width-md: 85%;
     --container-width-sm: 90%;
 
-    --transition: all 400 ease;
+    --transition: all 400ms ease;
 }
 
 /* FOR SMOOTH SCROLLING ACROSS DIFFERENT SECTIONS */
@@ -126,7 +126,7 @@ img {
     }
 
     div {
-        margin-top: 3rem;
+        margin-top: 2.5rem;
     }
 }
 
