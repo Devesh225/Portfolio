@@ -20,9 +20,7 @@ function Header() {
         <div className="header__image">
           <img src={Image} alt="Myself" />
         </div>
-        <div>
           <a href="#contact" className="header__scroll">Scroll Down</a>
-        </div>
         <div className="header__socials">
           <a href="https://twitter.com/TulshyanDevesh" target="_blank"><BsTwitter /></a>
           <a href="https://www.linkedin.com/in/devesh-tulshyan-b674421a2/" target="_blank"><BsLinkedin /></a>
