@@ -1,13 +1,12 @@
 .skills {
-    height: 100vh;
-    padding-top: 2rem;
+    padding-top: 4rem;
+    height: fit-content;
 }
 
 .skills__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
-    margin-top: 5rem;
 }
 
 .skills__card {
@@ -20,7 +19,7 @@
 }
 
 .skills__card:hover {
-    background-color: #443e3d;
+    background-color: var(--background-color-primary);
     border-color: var(--background-color-secondary);
     transform: scale(1.1, 1.1);
     color: var(--background-color-secondary);
@@ -36,9 +35,8 @@
     display: grid;
     grid-template-columns: 1fr;
     padding-bottom: 1rem;
-    margin-top: 2rem;
     gap: 2rem;
-    row-gap: 1rem;
+    row-gap: 0;
 }
 
 .skills__box {
@@ -55,10 +53,10 @@
 
     .skills__card {
         width: 75%;
-        margin: 3rem auto 0 auto;
+        margin: 1rem auto 0 auto;
     }
 
-    .skills__all {
-        margin-top: 1rem;
+    .skills__frontend1 {
+        margin-top: 3rem;
     }
 }

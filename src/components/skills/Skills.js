@@ -6,7 +6,7 @@ function Skills() {
   return (
     <div id='skills' className='skills'>
         <h1>My Skills</h1>
-        <h4>Languages, Tools, Libraries and Frameworks</h4>
+        <h4>Tools, Libraries and Frameworks</h4>
         <div className="container skills__container">
             <div className="skills__card skills__frontend1">
                 <h2>Frontend Development</h2>
