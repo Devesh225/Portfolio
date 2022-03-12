@@ -1,6 +1,6 @@
 .about {
-    height: 200vh;
     padding-top: 4rem;
+    height: fit-content;
 }
 
 .about__container {
