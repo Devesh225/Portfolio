@@ -13,7 +13,7 @@ function About() {
       <h4>Self-Taught Developer</h4>
       <div className="container about__container">
         <div className="about__image">
-          <img src={Image} alt="Image" />
+          <img src={Image} alt=""/>
         </div>
         <div className="about__info">
           <div className="about__cards">

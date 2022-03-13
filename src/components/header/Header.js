@@ -1,6 +1,7 @@
 import './Header.css';
 import Image from '../../assets/image_1.jpg';
 import React from 'react'
+import Resume from '../../assets/Resume.pdf';
 
 import { BsTwitter } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
@@ -14,17 +15,17 @@ function Header() {
         <h1>Devesh Tulshyan</h1>
         <h4>FullStack Developer</h4>
         <div className="header__cta">
-          <a href="" className='btn'>Download Resume</a>
-          <a href="" className='btn btn-primary'>Let's Chat</a>
+          <a download href={Resume} className='btn'>Download Resume</a>
+          <a href="#contact" className='btn btn-primary'>Let's Chat</a>
         </div>
         <div className="header__image">
           <img src={Image} alt="Myself" />
         </div>
           <a href="#contact" className="header__scroll">Scroll Down</a>
         <div className="header__socials">
-          <a href="https://twitter.com/TulshyanDevesh" target="_blank"><BsTwitter /></a>
-          <a href="https://www.linkedin.com/in/devesh-tulshyan-b674421a2/" target="_blank"><BsLinkedin /></a>
-          <a href="https://github.com/Devesh225" target="_blank"><BsGithub /></a>
+          <a rel="noreferrer" href="https://twitter.com/TulshyanDevesh" target="_blank"><BsTwitter /></a>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/devesh-tulshyan-b674421a2/" target="_blank"><BsLinkedin /></a>
+          <a rel="noreferrer" href="https://github.com/Devesh225" target="_blank"><BsGithub /></a>
         </div>
       </div>
     </div>
