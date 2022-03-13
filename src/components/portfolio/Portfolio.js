@@ -37,8 +37,8 @@ function Portfolio() {
                   <div className="portfolio__projectContent">
                     <h3>{title}</h3>
                     <div className="portfolio__projectButtons">
-                      <a target='_blank' className='btn btn1' href={githubLink}>Github Repo</a>
-                      <a target='_blank' className='btn btn-primary btn2' href={liveLink}>Live Demo</a>
+                      <a rel="noreferrer" target='_blank' className='btn btn1' href={githubLink}>Github Repo</a>
+                      <a rel="noreferrer" target='_blank' className='btn btn-primary btn2' href={liveLink}>Live Demo</a>
                     </div>
                   </div>
                 </div>
