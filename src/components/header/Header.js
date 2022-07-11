@@ -21,9 +21,9 @@ function Header() {
         <div className="header__image">
           <img src={Image} alt="Myself" />
         </div>
-          <a href="#contact" className="header__scroll">Scroll Down</a>
+          <a href="#contact" className="header__scroll">Contact Me</a>
         <div className="header__socials">
-          <a rel="noreferrer" href="https://twitter.com/TulshyanDevesh" target="_blank"><BsTwitter /></a>
+          <a rel="noreferrer" href="https://twitter.com/code4fun_devesh" target="_blank"><BsTwitter /></a>
           <a rel="noreferrer" href="https://www.linkedin.com/in/devesh-tulshyan-b674421a2/" target="_blank"><BsLinkedin /></a>
           <a rel="noreferrer" href="https://github.com/Devesh225" target="_blank"><BsGithub /></a>
         </div>
