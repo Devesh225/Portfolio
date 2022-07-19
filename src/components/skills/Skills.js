@@ -72,7 +72,7 @@ function Skills() {
                     </div>
                     <div className="skills__box">
                         <BsPatchCheckFill />
-                        <h3>Networking</h3>
+                        <h3>Postman</h3>
                     </div>
                 </div>
             </div>
