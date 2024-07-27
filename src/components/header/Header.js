@@ -1,7 +1,7 @@
 import './Header.css';
 import Image from '../../assets/image_1.jpg';
 import React from 'react'
-import Resume from '../../assets/Resume.pdf';
+import RESUME from '../../assets/RESUME.pdf';
 
 import { BsTwitter } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
@@ -15,7 +15,7 @@ function Header() {
         <h1>Devesh Tulshyan</h1>
         <h4>FullStack Developer</h4>
         <div className="header__cta">
-          <a download href={Resume} className='btn'>Download Resume</a>
+          <a download href={RESUME} className='btn'>Download Resume</a>
           <a href="#contact" className='btn btn-primary'>Let's Chat</a>
         </div>
         <div className="header__image">
